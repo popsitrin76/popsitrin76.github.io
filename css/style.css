@@ -1,0 +1,404 @@
+*{
+    
+    margin:0;
+    padding: 0;
+}
+
+
+/*HTML semantic tags*/
+
+/*section{
+    width: 100vw;
+    height: 80vh;
+}*/
+
+
+section{
+    width: 1280px;
+    height: 600px;
+    
+}
+
+
+nav {
+    position: fixed;
+    top: 10vh;
+    right: 2vw;
+    margin-top: 0px;
+        
+}
+
+
+nav ul{
+    list-style-type: none;
+    
+}
+
+h1 {
+    font-size: 12vw;
+    text-align: center;
+    padding-top: 480px;
+    font-family: "28 Days Later";
+    
+}
+
+
+h2 {
+    font-size: 3vw;
+    text-align: right;
+    padding-top: 800px;
+    color: azure;
+    padding-right: 65px;
+    font-family: "skia" "san-serif";
+}
+
+nav ul li{
+   display: block;
+    
+}
+
+
+nav ul li a:link figure{
+    width: 2.5vh;
+    height: 2.5vh;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin-bottom: 1vh;
+}
+
+nav ul li a: hover figure{
+    background-color: white;
+}
+
+
+
+/* CSS Named color classes*/
+
+
+.red{
+    
+    background: url("../pictures/Vintage%20Rose.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 850px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.orange{
+    
+    background: url("../pictures/vintage1.jpg");
+    background-size: contain;
+    width: auto%;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.yellow{
+    
+   background: url("../pictures/vintage2.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 850px;
+    color: red;
+    font-size: 2px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.green{
+    background: url("../pictures/vintage3.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 1000px;
+    color: red;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.purple{
+    background: url("../pictures/vintage4.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 1000px;
+    color: burlywood;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.blue{
+    background: url("../pictures/vintage5.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 1000px;
+    color: burlywood;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.red1{
+    background: url("../pictures/vintage6.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 1000px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.orange1{
+    background: url("../pictures/vintage7.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 1000px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.yellow1{
+    background: url("../pictures/vintage8.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 1000px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.green1{
+    background: url("../pictures/vintage9.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 900px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.blue1{
+    background: url("../pictures/vintage10.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 900px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.purple1{
+    background: url("../pictures/vintage10.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 900px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.red2{
+    background: url("../pictures/vintage11.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 900px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.orange2{
+    background: url("../pictures/vintage12.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 900px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.yellow2{
+    background: url("../pictures/vintage13.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 900px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.green2{
+    background: url("../pictures/vintage14.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 900px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.blue2{
+    background: url("../pictures/vintage15.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 900px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.purple2{
+    background: url("../pictures/vintage16.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 900px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.red3{
+    background: url("../pictures/vintage17.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 900px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.orange3{
+    background: url("../pictures/vintage18.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 900px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.yellow3{
+    background: url("../pictures/vintage19.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 900px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.green3{
+    background: url("../pictures/vintage20.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 900px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.blue3{
+    background: url("../pictures/vintage21.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 900px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.purple3{
+    background: url("../pictures/vintage22.jpg");
+    background-size: cover;
+    width: auto%;
+    height: 900px;
+    color: orange;
+    font-size: 17px;
+    font-family: "skia", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
